@@ -63,9 +63,13 @@ body {
 .left_side .title {
   text-transform: uppercase;
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
+.contact_info li{
+  display: flex;
+  gap:5px;
+}
 ul li {
   list-style-type: none;
 }
@@ -124,6 +128,7 @@ ul li i {
 
 .right_side p {
   color: #333;
+  text-align: justify;
 }
 
 .right_side .profile, 
